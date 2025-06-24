@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/aws/aws-sdk-go v1.44.273
-	github.com/coroot/coroot-pg-agent v1.2.2
+	github.com/coroot/coroot-pg-agent v1.2.9
 	github.com/coroot/logger v1.0.0
 	github.com/coroot/logparser v1.0.5
 	github.com/oliver006/redis_exporter v1.50.0

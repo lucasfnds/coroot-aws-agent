@@ -61,6 +61,8 @@ github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDk
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/coroot/coroot-pg-agent v1.2.2 h1:VRLCiQO167b3oaVvGznLZJLVMsEWMiZRipdXMOlGvE0=
 github.com/coroot/coroot-pg-agent v1.2.2/go.mod h1:8z3BLlH1tAN3mzKgguLkgznFBetwopHgI5v2snXanOg=
+github.com/coroot/coroot-pg-agent v1.2.9 h1:+c8wjgXPHiKQF5WDbdOfCnt/+ONjBswHMZMZs7TnA7Q=
+github.com/coroot/coroot-pg-agent v1.2.9/go.mod h1:8z3BLlH1tAN3mzKgguLkgznFBetwopHgI5v2snXanOg=
 github.com/coroot/logger v1.0.0 h1:n8iNkGk6ete9wp/L49FXsZlNiySuA+IJ7TsTkYkiqPc=
 github.com/coroot/logger v1.0.0/go.mod h1:rEO5EQqDbB4bnCoo5Ot9Dj51Bkl40RUVqB03rba54HE=
 github.com/coroot/logparser v1.0.5 h1:ag8OPMqFYNRhu07eN4uWXIcp8tiZvv5GYXB4uGAKIRg=
