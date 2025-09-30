@@ -137,7 +137,7 @@ func (c *Collector) startDbCollector() {
 		}
 		statementTimeout := int((*flags.RdsDbQueryTimeout).Milliseconds())
 		dsn := fmt.Sprintf("postgresql://%s@%s/postgres?connect_timeout=%d&statement_timeout=%d", userPass, endpoint, connectTimeout, statementTimeout)
-		if collector, err := postgres.New(dsn, *flags.DbScrapeInterval, time.Duration(connectTimeout), c.logger); err != nil {
+		if collector, err := postgres.New(dsn, *flags.DbScrapeInterval, *flags.RdsDbConnectTimeout, c.logger); err != nil {
 			c.logger.Warning("failed to init postgres collector:", err)
 		} else {
 			c.logger.Info("started postgres collector:", endpoint)
